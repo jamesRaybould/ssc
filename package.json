@@ -25,7 +25,6 @@
     "component-api": "git+ssh://git@github.com/sky-uk/polaris-masthead.git",
     "component-tools": "git+ssh://git@github.com/sky-uk/sky-c-tools.git",
     "ejs": "^2.3.4",
-    "nodemon": "^1.8.1",
-    "polaris-dmp": "git+ssh://git@github.com/sky-uk/polaris-dmp.git#v0.2.2"
+    "nodemon": "^1.8.1"
   }
 }
