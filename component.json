@@ -1,12 +1,16 @@
 {
-  "name": "masthead",
-  "version": "0.0.2",
+  "name": "sales-through-service",
+  "version": "0.0.1",
   "templates": {
     "base": {
       "data": "data/default.json",
       "script": "scripts/default.js",
       "scripts": [
-      	"scripts/src/hello.js"
+        "scripts/src/lib/polaris-dmp/utils/object-to-array.js",
+        "scripts/src/lib/polaris-dmp/utils/partial.js",
+        "scripts/src/lib/polaris-dmp/polaris-dmp.js",
+        "scripts/src/lib/polaris-dmp/index.js",
+        "scripts/src/sales-service.js"
       ],
       "style": "styles/index.scss",
       "template": "templates/index.hbs"

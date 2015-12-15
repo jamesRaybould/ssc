@@ -1,3 +1,18 @@
 body {
-	background: blue;
+	background: #fff;
+}
+article {
+  display: none;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border: 1px solid #555555;
+  background-color: #dddddd;
+  h1 {
+    margin: 2px 0px 5px 0px;
+    text-align: center;
+  }
+  img {
+    border: 0px;
+  }
 }

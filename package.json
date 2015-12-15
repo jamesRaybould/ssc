@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_PATH=$NODE_PATH:.:node_modules/component-tools:node_modules/component-api/src ./node_modules/nodemon/bin/nodemon.js ./node_modules/component-tools/start.js",
+    "start": "npm run bundle && NODE_PATH=$NODE_PATH:.:node_modules/component-tools:node_modules/component-api/src ./node_modules/nodemon/bin/nodemon.js ./node_modules/component-tools/start.js",
     "bundle": "NODE_PATH=$NODE_PATH:. node node_modules/component-tools/jsConcat.js",
     "fixture": "NODE_PATH=$NODE_PATH:. node node_modules/component-tools/createFixture.js",
     "test": "npm run bundle && PHANTOMJS_BIN=/usr/local/bin/phantomjs ./node_modules/karma/bin/karma start ./node_modules/component-tools/karma.conf.js",
@@ -25,6 +25,7 @@
     "component-api": "git+ssh://git@github.com/sky-uk/polaris-masthead.git",
     "component-tools": "git+ssh://git@github.com/sky-uk/sky-c-tools.git",
     "ejs": "^2.3.4",
-    "nodemon": "^1.8.1"
+    "nodemon": "^1.8.1",
+    "polaris-dmp": "git+ssh://git@github.com/sky-uk/polaris-dmp.git#v0.2.2"
   }
 }
