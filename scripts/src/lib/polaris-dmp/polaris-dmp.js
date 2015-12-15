@@ -82,5 +82,3 @@ function polarisDmpFactory(map) {
         getEthanStatus: partial(getEthanStatus, map)
     };
 }
-
-module.exports = polarisDmpFactory;

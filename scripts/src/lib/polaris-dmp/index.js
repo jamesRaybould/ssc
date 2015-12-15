@@ -34,8 +34,3 @@ function parseDmpCookie(cookie) {
 
     return polarisDmpFactory(map);
 }
-
-module.exports = {
-    parseDmpCookie: parseDmpCookie,
-    parseDocumentCookie: parseDocumentCookie
-};
